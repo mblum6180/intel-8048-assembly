@@ -1,0 +1,84 @@
+{
+  "name": "Intel 8048 Assembly",
+  "scopeName": "source.intel-8048-assembly",
+  "fileTypes": [
+    "a48"
+  ],
+  "patterns": [
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#instructions"
+    },
+    {
+      "include": "#directives"
+    },
+    {
+      "include": "#registers"
+    },
+    {
+      "include": "#labels"
+    },
+    {
+      "include": "#numbers"
+    }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.semicolon.intel-8048-assembly",
+          "match": ";.*",
+          "captures": {
+            "0": { "name": "punctuation.definition.comment.intel-8048-assembly" }
+          }
+        }
+      ]
+    },
+    "instructions": {
+      "patterns": [
+        {
+          "name": "keyword.control.intel-8048-assembly",
+          "match": "\\b(MOV|MOVP|MOVP3|MOVX|ADD|ADDC|SUBB|INC|DEC|ANL|ORL|XRL|RL|RLC|RRC|SWAP|DA|XCH|XCHD|PUSH|POP|JMP|CALL|RET|RETI|NOP|CLR|SETB|CPL|ANL|ORL|JC|JNC|JB|JBC|JZ|JNZ|DJNZ|JMP|SJMP|AJMP|LCALL|LJMP|ACALL|RET|RETR|XCH|XCHD|PUSH|CLR|SETB|DJNZ)\\b"
+        }
+      ]
+    },
+    "directives": {
+      "patterns": [
+        {
+          "name": "keyword.directive.intel-8048-assembly",
+          "match": "\\b(ORG|EQU|DB|DW|END)\\b"
+        }
+      ]
+    },
+    "registers": {
+      "patterns": [
+        {
+          "name": "variable.language.register.intel-8048-assembly",
+          "match": "\\b(R0|R1|R2|R3|R4|R5|R6|R7|A|PSW|CY|AC|F0|RS0|RS1|OV|P)\\b"
+        }
+      ]
+    },
+    "labels": {
+      "patterns": [
+        {
+          "name": "entity.name.label.intel-8048-assembly",
+          "match": "^[a-zA-Z_][a-zA-Z0-9_]*:"
+        }
+      ]
+    },
+    "numbers": {
+      "patterns": [
+        {
+          "name": "constant.numeric.hex.intel-8048-assembly",
+          "match": "\\b0[xX][0-9a-fA-F]+\\b"
+        },
+        {
+          "name": "constant.numeric.intel-8048-assembly",
+          "match": "\\b\\d+\\b"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "intel-8048-assembly",
+  "displayName": "Intel-8048-assembly",
+  "description": "Intel-8048-assembly",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "8048",
+      "aliases": ["intel 8048", "8048"],
+      "extensions": ["a48"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "8048",
+      "scopeName": "source.intel-8048-assembly",
+      "path": "./syntaxes/8048.tmLanguage.json"
+    }]
+  }
+}
