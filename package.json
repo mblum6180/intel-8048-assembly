@@ -3,9 +3,10 @@
   "displayName": "Intel 8048",
   "description": "Intel 8048 assembly highlighting",
   "icon": "icon.png",
+  "publisher": "Lightly-Salted Productions",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.79.0"
+    "vscode": "^1.0.0"
   },
   "categories": [
     "Programming Languages"
