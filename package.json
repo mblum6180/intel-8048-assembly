@@ -1,7 +1,8 @@
 {
   "name": "intel-8048-assembly",
-  "displayName": "Intel-8048-assembly",
-  "description": "Intel-8048-assembly",
+  "displayName": "Intel 8048",
+  "description": "Intel 8048 assembly highlighting",
+  "icon": "icon.png",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.79.0"
@@ -21,11 +22,9 @@
       "scopeName": "source.intel-8048-assembly",
       "path": "./syntaxes/8048.tmLanguage.json"
     }]
-    
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/mblum6180/intel-8048-assembly.git"
   }
-
 }
