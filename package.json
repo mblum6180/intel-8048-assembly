@@ -21,5 +21,11 @@
       "scopeName": "source.intel-8048-assembly",
       "path": "./syntaxes/8048.tmLanguage.json"
     }]
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mblum6180/intel-8048-assembly.git"
   }
+
 }
