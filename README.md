@@ -22,4 +22,4 @@ We welcome contributions! If you would like to improve the extension, please fee
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.md).
