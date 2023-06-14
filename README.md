@@ -16,7 +16,7 @@ After installing the extension, it will automatically be enabled for `.a48` file
 
 ## Issues and Contributing
 
-If you encounter any issues with the extension or have suggestions for improvements, please [file an issue](https://github.com/YourGitHubUsername/YourRepository/issues) on the GitHub repository.
+If you encounter any issues with the extension or have suggestions for improvements, please [file an issue](https://github.com/mblum6180/intel-8048-assembly/issues) on the GitHub repository.
 
 We welcome contributions! If you would like to improve the extension, please feel free to make a pull request.
 
