@@ -48,7 +48,7 @@
       "patterns": [
         {
           "name": "keyword.directive.intel-8048-assembly",
-          "match": "\\b(ORG|EQU|DB|DW|END)\\b"
+          "match": "\\b(ORG|EQU|DB|DW|END|org|equ|db|dw|end)\\b"
         }
       ]
     },
@@ -56,7 +56,7 @@
       "patterns": [
         {
           "name": "variable.language.register.intel-8048-assembly",
-          "match": "\\b(R0|R1|R2|R3|R4|R5|R6|R7|A|PSW|CY|AC|F0|RS0|RS1|OV|P)\\b"
+          "match": "\\b(R0|R1|R2|R3|R4|R5|R6|R7|A|PSW|CY|AC|F0|RS0|RS1|OV|P|r0|r1|r2|r3|r4|r5|r6|r7|a|psw|cy|ac|f0|rs0|rs1|ov|p)\\b"
         }
       ]
     },
