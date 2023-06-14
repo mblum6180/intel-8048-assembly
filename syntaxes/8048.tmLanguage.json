@@ -40,7 +40,7 @@
       "patterns": [
         {
           "name": "keyword.control.intel-8048-assembly",
-          "match": "\\b(ADD|ADDC|ANL|ANLD|CALL|CLR|CPL|DA|DEC|DIS|DJNZ|EN|ENT0|IN|INC|INS|JB[0-7]|JC|JF0|JF1|JMP|JMPP|JNC|JNI|JNT0|JNT1|JNZ|JOBF|JTF|JT0|JT1|JZ|MOV|MOVD|MOVP|MOVP3|MOVX|NOP|ORL|ORLD|OUTL|RET|RETR|RL|RLC|RR|RRC|SEL|STOP|STRT|SWAP|XCH|XCHD|XRL)\\b"
+          "match": "\\b(ADD|ADDC|ANL|ANLD|CALL|CLR|CPL|DA|DEC|DIS|DJNZ|EN|ENT0|IN|INC|INS|JB[0-7]|JC|JF0|JF1|JMP|JMPP|JNC|JNI|JNT0|JNT1|JNZ|JOBF|JTF|JT0|JT1|JZ|MOV|MOVD|MOVP|MOVP3|MOVX|NOP|ORL|ORLD|OUTL|RET|RETR|RL|RLC|RR|RRC|SEL|STOP|STRT|SWAP|XCH|XCHD|XRL|add|addc|anl|anld|call|clr|cpl|da|dec|dis|djnz|en|ent0|in|inc|ins|jb[0-7]|jc|jf0|jf1|jmp|jmpp|jnc|jni|jnt0|jnt1|jnz|jobf|jtf|jt0|jt1|jz|mov|movd|movp|movp3|movx|nop|orl|orld|outl|ret|retr|rl|rlc|rr|rrc|sel|stop|strt|swap|xch|xchd|xrl)\\b"
         }
       ]
     },
